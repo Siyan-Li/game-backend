@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
@@ -46,7 +46,6 @@ def get_reasoning():
     return jsonify({"html": REASONING_HTML})
 
 if __name__ == '__main__':
-=======
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
@@ -94,5 +93,4 @@ def get_reasoning():
     return jsonify({"html": REASONING_HTML})
 
 if __name__ == '__main__':
->>>>>>> afc1bccc5eccb8e301bef45c1322faeb7d9c537b
     app.run(host='0.0.0.0', port=5000)
